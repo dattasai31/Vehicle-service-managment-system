@@ -34,7 +34,7 @@ public class validations_vehicles {
 	}
 	
 	
-	// validation method to check whether the entered mobile number is unique or not
+	// validation method to check whether the entered regsitration number is unique or not
 	static boolean uniqueregnumber(Connection con,String s) throws SQLException
 	{
 		String query="select * from vehicles where reg_number=?";
